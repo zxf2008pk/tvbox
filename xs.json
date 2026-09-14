@@ -28,7 +28,7 @@
       "key": "嗷呜弹幕",
       "type": 3,
       "api": "csp_AAConfigAmns",
-      "jar": "https://gh-proxy.com/https://github.com/zxf2007pk/shenlong/blob/main/神龙.jar",
+      "jar": "https://gh.dpik.top/https://github.com/zxf2007pk/shenlong/blob/main/神龙.jar",
       "searchable": 0,
       "filterable": 0,
       "quickSearch": 0,
@@ -38,20 +38,20 @@
       "key": "ConfigCenter",
       "name": "🔰真心☪弹幕",
       "type": 3,
-      "jar": "https://gh-proxy.com/https://github.com/zxf2007pk/shenlong/blob/main/jar/真心.jar",
+      "jar": "https://gh.dpik.top/https://github.com/zxf2007pk/shenlong/blob/main/jar/真心.jar",
       "api": "csp_ConfigCenter",
       "searchable": 0,
       "changeable": 0,
       "ext": {
-        "commonConfig": "https://gh-proxy.com/https://github.com/zxf2007pk/shenlong/blob/main/json/peizhi.json",
-        "services": "https://gh-proxy.com/https://github.com/zxf2007pk/shenlong/blob/main/json/services.json"
+        "commonConfig": "https://gh.dpik.top/https://github.com/zxf2007pk/shenlong/blob/main/json/peizhi.json",
+        "services": "https://gh.dpik.top/https://github.com/zxf2007pk/shenlong/blob/main/json/services.json"
       }
     },
     {
       "name": "🔰神仙☪弹幕",
       "key": "神仙弹幕",
       "type": 3,
-      "jar": "https://gh-proxy.com/https://github.com/zxf2007pk/shenlong/blob/main/jar/danmu.jar",
+      "jar": "https://gh.dpik.top/https://github.com/zxf2007pk/shenlong/blob/main/jar/danmu.jar",
       "api": "csp_DanmakuSpider",
       "searchable": 1,
       "ext": {
@@ -101,50 +101,6 @@
       "timeout": 60
     },
     {
-      "key": "至臻",
-      "name": "🔰至臻☪网盘",
-      "type": 3,
-      "api": "csp_PanWebShare",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "ext": {
-        "site": [
-          "https://mihdr.top",
-          "https://www.miqk.cc",
-          "https://xiaomiai.site",
-          "https://xiaomi666.fun",
-          "https://www.mihdr.top",
-          "https://www.zhizhenpan.fun"
-        ]
-      },
-      "timeout": 60
-    },
-    {
-      "key": "蜡笔",
-      "name": "🔰蜡笔☪网盘",
-      "type": 3,
-      "api": "csp_PanWebShare",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "ext": {
-        "site": [
-          "http://xiaocge.fun",
-          "http://feimo.fun",
-          "https://feimao666.fun",
-          "http://feimao888.fun",
-          "http://www.labi88.sbs",
-          "http://fmao.site",
-          "http://fmao.shop",
-          "http://xiaocgege.shop"
-        ]
-      },
-      "timeout": 60
-    },
-    {
       "key": "多多",
       "name": "🔰多多☪网盘",
       "type": 3,
@@ -177,26 +133,6 @@
           "https://woog.nxog.fun",
           "https://woog.nxog.eu.org",
           "https://woog.430520.xyz"
-        ]
-      },
-      "timeout": 60
-    },
-    {
-      "key": "二小",
-      "name": "🔰贰筱☪网盘",
-      "type": 3,
-      "api": "csp_PanWebShare",
-      "searchable": 1,
-      "quickSearch": 1,
-      "filterable": 1,
-      "changeable": 1,
-      "ext": {
-        "site": [
-          "https://www.2xiaopan.top",
-          "https://2xiaopan.top",
-          "https://www.erxiaozhan.top",
-          "https://www.2xiaozhan.top",
-          "https://wexwp.cc"
         ]
       },
       "timeout": 60
@@ -368,32 +304,86 @@
       "timeout": 60
     },
     {
-      "key": "tenteng",
+      "key": "神帝",
+      "name": "🔰神帝☪影视",
+      "type": 1,
+      "api": "http://154.219.117.232:9981/jacloudapi.php/provide/vod/",
+      "searchable": 1,
+      "quickSearch": 0,
+      "filterable": 0,
+      "categories": [
+        "电影",
+        "国产剧",
+        "动漫",
+        "综艺"
+      ]
+    },
+    {
+      "key": "央视大全",
+      "name": "🔰央视☪影视",
+      "type": 3,
+      "api": "https://gh.dpik.top/https://github.com/zxf2007pk/shenlong/blob/main/js/drpy2.min.js",
+      "searchable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "order_num": 0,
+      "ext": "https://gh.dpik.top/https://github.com/zxf2007pk/shenlong/blob/main/js/央视大全.js"
+    },
+    {
+      "key": "央视影视",
+      "name": "🔰央视☪综艺",
+      "type": 3,
+      "api": "https://gh.dpik.top/https://github.com/zxf2007pk/shenlong/blob/main/js/央视影视.py",
+      "searchable": 1,
+      "changeable": 1,
+      "quickSearch": 1,
+      "filterable": 1,
+      "playerType": 2
+    },
+    {
+      "api": "https://gh.dpik.top/https://github.com/zxf2007pk/shenlong/blob/main/cat/cat_腾讯.js",
+      "filterable": 1,
+      "key": "cat_腾讯",
       "name": "🔰腾讯☪影视",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://github.com/zxf2007pk/shenlong/blob/main/js/drpy2.min.js",
-      "ext": "https://gh-proxy.com/https://github.com/zxf2007pk/shenlong/blob/main/js/腾腾.js"
+      "quickSearch": 1,
+      "searchable": 1,
+      "type": 3
     },
     {
-      "key": "qiqi",
+      "api": "https://gh.dpik.top/https://github.com/zxf2007pk/shenlong/blob/main/cat/cat_奇艺.js",
+      "filterable": 1,
+      "key": "cat_奇艺",
       "name": "🔰奇艺☪影视",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://github.com/zxf2007pk/shenlong/blob/main/js/drpy2.min.js",
-      "ext": "https://gh-proxy.com/https://github.com/zxf2007pk/shenlong/blob/main/js/奇奇.js"
+      "quickSearch": 1,
+      "searchable": 1,
+      "type": 3
     },
     {
-      "key": "mangmang",
+      "api": "https://gh.dpik.top/https://github.com/zxf2007pk/shenlong/blob/main/cat/cat_芒果.js",
+      "filterable": 1,
+      "key": "芒果",
       "name": "🔰芒果☪影视",
-      "type": 3,
-      "api": "https://gh-proxy.com/https://github.com/zxf2007pk/shenlong/blob/main/js/drpy2.min.js",
-      "ext": "https://gh-proxy.com/https://github.com/zxf2007pk/shenlong/blob/main/js/茫茫.js"
+      "quickSearch": 1,
+      "searchable": 1,
+      "type": 3
     },
     {
-      "key": "youyou",
+      "api": "https://gh.dpik.top/https://github.com/zxf2007pk/shenlong/blob/main/cat/cat_优酷.js",
+      "filterable": 1,
+      "key": "cat_优酷.js",
       "name": "🔰优酷☪影视",
-      "type": 3,
-      "api": "https://qist.swsixtwo.top/lib/drpy2.min.js",
-      "ext": "https://qist.swsixtwo.top/js/%E4%BC%98%E9%85%B7.js"
+      "quickSearch": 1,
+      "searchable": 1,
+      "type": 3
+    },
+    {
+      "api": "https://gh.dpik.top/https://github.com/zxf2007pk/shenlong/blob/main/cat/cat_搜狗.js",
+      "filterable": 1,
+      "key": "cat_搜狗",
+      "name": "🔰搜狗☪影视",
+      "quickSearch": 1,
+      "searchable": 1,
+      "type": 3
     },
     {
       "key": "三六零",
@@ -418,7 +408,7 @@
       "name": "🔰枫叶☪影视",
       "type": 3,
       "api": "csp_XBPQ",
-      "jar": "https://gh-proxy.com/https://github.com/zxf2007pk/shenlong/blob/main/jar/xbpq250816.jar",
+      "jar": "https://gh.dpik.top/https://github.com/zxf2007pk/shenlong/blob/main/jar/xbpq250816.jar",
       "searchable": 1,
       "quickSearch": 1,
       "filterable": 1,
@@ -447,7 +437,7 @@
       }
     },
     {
-      "api": "https://gh-proxy.com/https://github.com/zxf2007pk/shenlong/blob/main/py/山楂影视.py",
+      "api": "https://gh.dpik.top/https://github.com/zxf2007pk/shenlong/blob/main/py/山楂影视.py",
       "filterable": 1,
       "key": "山楂4K",
       "name": "🔰山楂☪影视",
@@ -1316,7 +1306,7 @@
     {
       "name": "🔰咪咕",
       "type": 0,
-      "url": "https://gh-proxy.com/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt",
+      "url": "https://gh.dpik.top/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt",
       "ua": "okHttp/Mod-1.1.0"
     },
     {
