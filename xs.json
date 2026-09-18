@@ -437,15 +437,6 @@
       }
     },
     {
-      "api": "https://gh.dpik.top/https://github.com/zxf2007pk/shenlong/blob/main/py/山楂影视.py",
-      "filterable": 1,
-      "key": "山楂4K",
-      "name": "🔰山楂☪影视",
-      "quickSearch": 1,
-      "searchable": 1,
-      "type": 3
-    },
-    {
       "key": "苹果",
       "name": "🔰苹果☪影视",
       "type": 3,
