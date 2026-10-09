@@ -1261,36 +1261,36 @@
   ],
   "lives": [
     {
-      "name": "🔰体育",
+      "name": "体育",
       "type": 0,
       "url": "http://82.156.243.185:33389/fwc.m3u"
     },
     {
-      "name": "🔰咪咕",
+      "name": "咪咕",
       "type": 0,
       "url": "https://gh.dpik.top/https://raw.githubusercontent.com/develop202/migu_video/refs/heads/main/interface.txt",
       "ua": "okHttp/Mod-1.1.0"
     },
     {
-      "name": "🔰虎牙",
+      "name": "虎牙",
       "type": 0,
       "url": "https://sub.ottiptv.cc/huyayqk.m3u",
       "ua": ""
     },
     {
-      "name": "🔰斗鱼",
+      "name": "斗鱼",
       "type": 0,
       "url": "https://sub.ottiptv.cc/douyuyqk.m3u",
       "ua": ""
     },
     {
-      "name": "🔰歪歪Y",
+      "name": "歪歪Y",
       "type": 0,
       "url": "https://sub.ottiptv.cc/yylunbo.m3u",
       "ua": ""
     },
     {
-      "name": "🔰哔哩",
+      "name": "哔哩",
       "type": 0,
       "url": "https://sub.ottiptv.cc/bililive.m3u",
       "ua": ""
