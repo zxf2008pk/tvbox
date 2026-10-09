@@ -35,19 +35,6 @@
       "changeable": 0
     },
     {
-      "key": "ConfigCenter",
-      "name": "🔰真心☪弹幕",
-      "type": 3,
-      "jar": "https://gh.dpik.top/https://github.com/zxf2007pk/shenlong/blob/main/jar/真心.jar",
-      "api": "csp_ConfigCenter",
-      "searchable": 0,
-      "changeable": 0,
-      "ext": {
-        "commonConfig": "https://gh.dpik.top/https://github.com/zxf2007pk/shenlong/blob/main/json/peizhi.json",
-        "services": "https://gh.dpik.top/https://github.com/zxf2007pk/shenlong/blob/main/json/services.json"
-      }
-    },
-    {
       "name": "🔰神仙☪弹幕",
       "key": "神仙弹幕",
       "type": 3,
@@ -55,7 +42,7 @@
       "api": "csp_DanmakuSpider",
       "searchable": 1,
       "ext": {
-        "apiUrl": "http://127.0.0.1:9321/87654321,https://dm8888.cc.cd/87654321,https://dm9999.cc.cd/87654321",
+        "apiUrl": "https://dm8888.cc.cd/87654321,https://dm9999.cc.cd/87654321",
         "autoPushEnabled": true,
         "danmakuStyle": "模板一",
         "lpAlpha": 0.9
@@ -454,22 +441,6 @@
         "site": "./lib/app_xpg_android.txt",
         "version": "1.0.0.3",
         "decrypt": "0"
-      }
-    },
-    {
-      "key": "金牌",
-      "name": "🔰金牌☪影视",
-      "type": 3,
-      "api": "csp_AppQi",
-      "searchable": 1,
-      "changeable": 1,
-      "ext": {
-        "url": "https://qj4.catbb.xyz",
-        "dataKey": "eecbio48dsq13kkk",
-        "dataIv": "eecbio48dsq13kkk",
-        "search": "searchList4",
-        "init": "initV122",
-        "ua": "okhttp/3.10.0"
       }
     },
     {
